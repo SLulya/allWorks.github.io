@@ -1,0 +1,3 @@
+function povid(x, y){
+    alert(`Привіт, ${x} та ${y}`);
+}

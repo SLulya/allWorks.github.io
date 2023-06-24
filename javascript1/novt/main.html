@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th>№</th>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Пошта</th>
+            <th>Телефон</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            
+        </tbody>
+    </table>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script>
+        
+    const firebaseConfig = {
+        apiKey: "AIzaSyCEc4PZrHQ-2j-w2k00D4JCj6Gejw_R7Ls",
+        authDomain: "studylink-920fd.firebaseapp.com",
+        projectId: "studylink-920fd",
+        storageBucket: "studylink-920fd.appspot.com",
+        messagingSenderId: "507495128808",
+        appId: "1:507495128808:web:ec3e65462a463a30faf35d"
+};
+
+        firebase.initializeApp(firebaseConfig);
+
+        var db = firebase.firestore();
+    </script>
+
+
+
+
+
+    <script src="z1.js"></script>
+</body>
+</html>
