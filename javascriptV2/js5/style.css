@@ -1,0 +1,82 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+form{
+    width:40%;
+    margin-left: 30%;
+    padding: 10px 150px;
+}
+button{
+    background: rgb(9, 42, 174);
+    padding: 10px;
+    border-radius: 6px;
+    border: 0;
+    margin-top: 15px;
+    color:white;
+    font-size: 16px;
+}
+button:hover{
+    background: rgb(30, 68, 174);
+}
+input:focus{
+    box-shadow: 0px 0px 10px rgb(91, 140, 223);
+    width: 200px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 300vh;
+}
+.message-box{
+    position: fixed;
+    z-index: 999999999;
+    top: 12px;
+    right: 12px;
+}
+.message-content{
+    position: relative;
+    width: 300px;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 0 12px #999;
+    color: #fff;
+    opacity: 0.8;
+    background: rgb(128, 166, 236);
+}
+.message-header{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.message-text{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message-success{
+    background-color: #51a351;
+}
+
+.message-info{
+    background-color: #2f96b4;
+}
+
+.message-warning{
+    background-color: #f89406;
+}
+
+.message-error{
+    background-color: #bd362f;
+}
+.message-time-line{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background-color: #000;
+    opacity: 0.4;
+ 
+}

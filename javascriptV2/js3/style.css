@@ -1,0 +1,21 @@
+form{
+    border: 1px solid rgb(6, 57, 89);
+    float:left;
+    padding: 20px;
+    background-color: rgb(190, 207, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+button{
+    background-color:rgb(84, 134, 164);
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 13px;
+    border:0;
+}
+button:hover{
+    box-shadow: 0px 0px 5px rgb(6, 15, 47);
+}
