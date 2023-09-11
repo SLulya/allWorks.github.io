@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="tovar_type" onchange="getTovars()">
+        <option value="phones">Телефони</option>
+        <option value="laptops">Ноутбук</option>
+        <option value="TVs">Телевізор</option>
+    </select> <br><br>
+    <label for="">Максимальна ціна</label> <br><br>
+    <input type="number" name="" id="maxprice"><br><br>
+    <label for="">Мінімальна ціна</label><br><br>
+    <input type="number" name="" id="minprice"><br><br>
+    <button onclick="filter()">Застосувати</button>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="array.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
