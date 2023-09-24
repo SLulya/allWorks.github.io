@@ -1,0 +1,14 @@
+.tovari{
+    width: 90%;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tovar{
+    border: 1px solid black;
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    overflow: hidden;
+}
